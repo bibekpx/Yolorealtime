@@ -1,0 +1,55 @@
+# Python virtual environments
+venv/
+.venv/
+env/
+.env.venv/
+ENV/
+venv.bak/
+env.bak/
+conda-meta/
+
+# Byte-compiled / cache / distribution files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+*.egg
+dist/
+build/
+develop-eggs/
+.eggs/
+wheels/
+share/python-wheels/
+
+# Testing, coverage, and type/lint caches
+.pytest_cache/
+.coverage
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.ruff_cache/
+.tox/
+.nox/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets.json
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# IDEs and editors
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+
